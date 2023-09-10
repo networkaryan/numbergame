@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>Guess the Number Game</title>
+</head>
+
+<body>
+  <div class="center-container">
+    <div class="container">
+      <h1>Guess the Number Game</h1>
+      <label for="guess">Enter your guess (0-100):</label>
+      <input type="number" id="guess" min="0" max="100" oninput="vibrateInput()">
+      <button id="submit-button">Submit Guess</button>
+      <p id="hint" style="display: none;"></p>
+      <p id="chances" style="display: none;"></p>
+      <p id="result" style="display: none;"></p>
+      <audio id="victory-sound" src="victory.mp3"></audio>
+      <audio id="loss-sound" src="loss.mp3"></audio>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

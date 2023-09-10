@@ -1,0 +1,102 @@
+body {
+  
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(0deg, rgba(141, 17, 235, 0.5), rgb(1, 191, 249));background-color:linear;
+  margin: 0;
+  padding: 0;
+}
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f4f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  color: #0869d8;
+  font-size: 24px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #9f9b9b;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+  /* Smooth color transition */
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #7d0fd1;
+}
+
+.blue-line {
+  border-top: 2px solid #007BFF;
+  /* Blue line */
+  margin: 10px 0;
+}
+
+#hint-message {
+  color: #007BFF;
+  font-size: 14px;
+  margin: 10px 0;
+}
+
+#result,
+#hint,
+#chances {
+  font-weight: bold;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#result {
+  color: #28a745;
+  background-color: #d4edda;
+}
+
+#hint {
+  color: #007BFF;
+  background-color: #cce5ff;
+}
+
+#chances {
+  color: #ff0000;
+  background-color: #f8d7da;
+}
